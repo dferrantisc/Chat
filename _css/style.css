@@ -1,4 +1,56 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ 
+ body {
+     position: relative;
+     background-color: #ffeaa7;
+ }
+ 
+ .TelaChat {
+     height: 500px;
+     width: 300px;
+     position: fixed;
+     background-color: #c8d6e5;
+     top: 60px;
+     left: 20%;
+     transition: 0.4s ease;
+     border-style: solid;
+     border-color: black;
+     border-radius: 10px;
+ }
+ 
+ .TelaChat .fundotela {
+     height: 510px;
+     overflow: scroll;
+     background: #c7ecee;
+ }
+ 
+ nav {
+     position: fixed;
+     height: 60px;
+     z-index: 50;
+     transition: 0.3s ease;
+     background: #00b894;
+     text-align: center;
+     text-decoration: none;
+ }
+ 
+ nav.navb {
+     width: 300px;
+ }
+ 
+ nav.NavUser {
+     width: 200px;
+ }
+ 
+ .users {
+     height: 500px;
+     width: 200px;
+     background-color: #c7ecee;
+     position: fixed;
+     top: 60px;
+     left: 52%;
+ }
